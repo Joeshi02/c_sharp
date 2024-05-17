@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoCoder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12c07f0dd4767e4f49c08f4a5a7c0af1a9635a8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bfc3f8cf9fddba291d6e2d90ce0d784c9df759d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoCoder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoCoder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\ProyectoCoder.exe
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\ProyectoCoder.deps.json
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\ProyectoCoder.runtimeconfig.json
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\ProyectoCoder.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\ProyectoCoder.pdb
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.GeneratedMSBuildEditorConfig.editorconfig
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.AssemblyInfoInputs.cache
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.AssemblyInfo.cs
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.csproj.CoreCompileInputs.cache
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.sourcelink.json
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.dll
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\refint\ProyectoCoder.dll
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.pdb
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.genruntimeconfig.cache
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ref\ProyectoCoder.dll
