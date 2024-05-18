@@ -6,19 +6,39 @@ using System.Threading.Tasks;
 
 namespace ProyectoCoder
 {
-    internal class ProductoVendido
+    public class ProductoVendido
     {
-        private int _Id { get; }
-        private int _IdProducto { get; }
-        private int _Stock { get; set; }
-        private int _IdVenta { get;}
+        private int Id;
+        private int IdProducto ;
+        private int Stock ;
+        private int IdVenta ;
 
+        public int id
+        {
+            get => Id; 
+            set => Id = value;
+        }
+        public int idProducto
+        {
+            get => IdProducto;
+            set => IdProducto = value;
+        }
+        public int stock
+        {
+            get => Stock;
+            set => Stock = value;
+        }
+        public int idVenta
+        {
+            get => IdVenta;
+            set => IdVenta = value;
+        }
         public ProductoVendido(int id, int idProducto, int stock, int idVenta)
         {
-            this._Id = id;
-            this._IdProducto = idProducto;
-            this._Stock = stock;
-            this._IdVenta = idVenta;
+            Id = id;
+            IdProducto = idProducto;
+            Stock = stock;
+            IdVenta = idVenta;
         }
     }
 }

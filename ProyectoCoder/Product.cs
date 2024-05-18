@@ -8,20 +8,49 @@ namespace ProyectoCoder
 {
     public class Product
     {
-        private int _codigo { get; set; }
-        private string _description { get; set; }
-        private double _precioDeCompra {get; set;}
-        private double _precioDeVenta {get; set;}
-        private string _categoria {get; set;}
+        private int _codigo;
+        private string _descripcion;
+        private double _precioDeCompra;
+        private double _precioDeVenta;
+        private string _categoria;
 
-        public Product(int codigo, string description, double precioDeCompra, double precioDeVenta, string categoria )
+        public int codigo
         {
-            this._codigo = codigo;
-            this._description = description;
-            this._precioDeCompra= precioDeCompra;
-            this._precioDeVenta = precioDeVenta;
-            this._categoria = categoria;
+            get => _codigo;
+            set => _codigo = value;
         }
-       
+
+        public string descripcion
+        {
+            get => _descripcion;
+            set => _descripcion = value;
+        }
+
+        public double precioDeCompra
+        {
+            get => _precioDeCompra;
+            set => _precioDeCompra = value;
+        }
+
+        public double precioDeVenta
+        {
+            get => _precioDeVenta;
+            set => _precioDeVenta = value;
+        }
+
+        public string categoria
+        {
+            get => _categoria;
+            set => _categoria = value;
+        }
+
+        public Product(int codigo, string descripcion, double precioDeCompra, double precioDeVenta, string categoria)
+        {
+            _codigo = codigo;
+            _descripcion = descripcion;
+            _precioDeCompra = precioDeCompra;
+            _precioDeVenta = precioDeVenta;
+            _categoria = categoria;
+        }
     }
 }

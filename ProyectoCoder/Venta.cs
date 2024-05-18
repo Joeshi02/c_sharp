@@ -6,17 +6,32 @@ using System.Threading.Tasks;
 
 namespace ProyectoCoder
 {
-    internal class Venta
+    public class Venta
     {
-        private int _Id { get; }
-        private string _Comentarios { get; }
-        private int _IdUsuario { get; }
+        private int Id;
+        private string Comentarios; 
+        private int IdUsuario; 
 
+        public int id
+        {
+            get => Id; 
+            set => Id = value;
+        }
+        public string comentarios
+        {
+            get => Comentarios;
+            set => Comentarios = value;
+        }
+        public int idUsuario
+        {
+            get => IdUsuario;
+            set => IdUsuario = value;
+        }
         public Venta (int id, string comentarios, int idUsuario)
         {
-            this._Id = id;
-            this._Comentarios = comentarios;
-            this._IdUsuario = idUsuario;
+            Id = id;
+            Comentarios = comentarios;
+            IdUsuario = idUsuario;
         }
     }
 }

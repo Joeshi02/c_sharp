@@ -6,21 +6,49 @@ using System.Threading.Tasks;
 
 namespace ProyectoCoder
 {
-    internal class Usuario
+    public class Usuario
     {
-        private int _Id { get; set; }
-        private string _Nombre { get; set; }
-        private string _Apellido { get; set; }
-        private string _Contraseña { get; set; }
-        private string _Mail { get; set; }
+        private int _Id;
+        private string _Nombre;
+        private string _Apellido;
+        private string _Password;
+        private string _Mail;
 
-        public Usuario(int id, string nombre, string apellido, string contraseña, string mail)
+        public int id
         {
-            this._Id = id;
-            this._Nombre = nombre;
-            this._Apellido = apellido;
-            this._Contraseña = contraseña;
-            this._Mail = mail;
+            get => _Id;
+            set => _Id = value;
+        }
+        public string nombre
+        {
+            get => _Nombre;
+            set => _Nombre = value;
+        }
+        public string apellido
+        {
+            get =>_Apellido ;
+            set =>_Apellido= value ;
+        
+        }
+        public string password
+        {
+            get =>_Password ;
+            set =>_Password = value ;
+        
+        }
+        public string mail
+        {
+            get =>_Mail ;
+            set =>_Mail = value ;
+
+        }
+        public Usuario(int id, string nombre, string apellido, string password, string mail)
+        {
+            _Id = id;
+            _Nombre = nombre;
+            _Apellido = apellido;
+            _Password = password;
+            _Mail = mail;
         }
     }
 }
