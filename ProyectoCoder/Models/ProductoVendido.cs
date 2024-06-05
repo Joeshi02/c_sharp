@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoCoder
+namespace ProyectoCoder.Models
 {
     public class ProductoVendido
     {
         private int Id;
-        private int IdProducto ;
-        private int Stock ;
-        private int IdVenta ;
+        private int IdProducto;
+        private int Stock;
+        private int IdVenta;
 
         public int id
         {
-            get => Id; 
+            get => Id;
             set => Id = value;
         }
         public int idProducto

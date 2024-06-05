@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoCoder
+namespace ProyectoCoder.Models
 {
     public class Venta
     {
         private int Id;
-        private string Comentarios; 
-        private int IdUsuario; 
+        private string Comentarios;
+        private int IdUsuario;
 
         public int id
         {
-            get => Id; 
+            get => Id;
             set => Id = value;
         }
         public string comentarios
@@ -27,7 +27,7 @@ namespace ProyectoCoder
             get => IdUsuario;
             set => IdUsuario = value;
         }
-        public Venta (int id, string comentarios, int idUsuario)
+        public Venta(int id, string comentarios, int idUsuario)
         {
             Id = id;
             Comentarios = comentarios;

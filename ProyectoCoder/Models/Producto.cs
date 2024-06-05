@@ -4,53 +4,61 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoCoder
+namespace ProyectoCoder.Models
 {
-    public class Product
+    public class Producto
     {
         private int _codigo;
         private string _descripcion;
         private double _precioDeCompra;
         private double _precioDeVenta;
-        private string _categoria;
+        private double _stock;
+        private int _idUsuario;
 
-        public int codigo
+        public int Codigo
         {
             get => _codigo;
             set => _codigo = value;
         }
 
-        public string descripcion
+        public string Descripcion
         {
             get => _descripcion;
             set => _descripcion = value;
         }
 
-        public double precioDeCompra
+        public double PrecioDeCompra
         {
             get => _precioDeCompra;
             set => _precioDeCompra = value;
         }
 
-        public double precioDeVenta
+        public double PrecioDeVenta
         {
             get => _precioDeVenta;
             set => _precioDeVenta = value;
         }
 
-        public string categoria
+        public double Stock
         {
-            get => _categoria;
-            set => _categoria = value;
+            get => _stock;
+            set => _stock = value;
+        }
+        public int IdUsuario
+        {
+            get => _idUsuario;
+            set => _idUsuario = value;
         }
 
-        public Product(int codigo, string descripcion, double precioDeCompra, double precioDeVenta, string categoria)
+        public Producto(int codigo, string descripcion, double precioDeCompra, double precioDeVenta, double stock, int idUsuario)
         {
             _codigo = codigo;
             _descripcion = descripcion;
             _precioDeCompra = precioDeCompra;
             _precioDeVenta = precioDeVenta;
-            _categoria = categoria;
+            _stock = stock;
+            _idUsuario = idUsuario;
         }
+        public Producto() { }
     }
 }

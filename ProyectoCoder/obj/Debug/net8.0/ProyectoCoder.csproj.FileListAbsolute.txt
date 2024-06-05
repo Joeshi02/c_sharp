@@ -13,3 +13,11 @@ D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\refint\ProyectoCoder.dll
 D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.pdb
 D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.genruntimeconfig.cache
 D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ref\ProyectoCoder.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\cSharp\c_sharp\ProyectoCoder\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\ProyectoCoder.csproj.AssemblyReference.cache
+D:\cSharp\c_sharp\ProyectoCoder\obj\Debug\net8.0\Proyecto.EE22AC8F.Up2Date
