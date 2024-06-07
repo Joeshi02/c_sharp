@@ -40,5 +40,8 @@ namespace ProyectoCoder.Models
             Stock = stock;
             IdVenta = idVenta;
         }
+        public ProductoVendido()
+        {
+        }
     }
 }

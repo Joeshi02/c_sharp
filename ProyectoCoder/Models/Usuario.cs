@@ -13,6 +13,7 @@ namespace ProyectoCoder.Models
         private string _Apellido;
         private string _Password;
         private string _Mail;
+        private string _NombreUsuario;
 
         public int id
         {
@@ -42,13 +43,22 @@ namespace ProyectoCoder.Models
             set => _Mail = value;
 
         }
-        public Usuario(int id, string nombre, string apellido, string password, string mail)
+        public string nombreUsuario
+        {
+            get => _NombreUsuario;
+            set => _NombreUsuario = value;
+        }
+        public Usuario(int id, string nombre, string apellido, string password, string mail, string nombreUsuario)
         {
             _Id = id;
             _Nombre = nombre;
             _Apellido = apellido;
             _Password = password;
             _Mail = mail;
+            _NombreUsuario = nombreUsuario;
+        }
+        public Usuario()
+        {
         }
     }
 }

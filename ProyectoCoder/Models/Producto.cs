@@ -8,17 +8,17 @@ namespace ProyectoCoder.Models
 {
     public class Producto
     {
-        private int _codigo;
+        private int _id;
         private string _descripcion;
         private double _precioDeCompra;
         private double _precioDeVenta;
         private double _stock;
         private int _idUsuario;
 
-        public int Codigo
+        public int Id
         {
-            get => _codigo;
-            set => _codigo = value;
+            get => _id;
+            set => _id = value;
         }
 
         public string Descripcion
@@ -50,9 +50,9 @@ namespace ProyectoCoder.Models
             set => _idUsuario = value;
         }
 
-        public Producto(int codigo, string descripcion, double precioDeCompra, double precioDeVenta, double stock, int idUsuario)
+        public Producto(int id, string descripcion, double precioDeCompra, double precioDeVenta, double stock, int idUsuario)
         {
-            _codigo = codigo;
+            _id = id;
             _descripcion = descripcion;
             _precioDeCompra = precioDeCompra;
             _precioDeVenta = precioDeVenta;

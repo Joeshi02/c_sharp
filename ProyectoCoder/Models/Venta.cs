@@ -33,5 +33,10 @@ namespace ProyectoCoder.Models
             Comentarios = comentarios;
             IdUsuario = idUsuario;
         }
+        public Venta()
+            {
+            }
     }
+    
 }
+
