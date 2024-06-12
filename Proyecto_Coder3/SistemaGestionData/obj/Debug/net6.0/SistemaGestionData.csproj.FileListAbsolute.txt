@@ -1,0 +1,16 @@
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.deps.json
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.dll
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionData.pdb
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.dll
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\bin\Debug\net6.0\SistemaGestionEntities.pdb
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.AssemblyReference.cache
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.GeneratedMSBuildEditorConfig.editorconfig
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfoInputs.cache
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.AssemblyInfo.cs
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.csproj.CoreCompileInputs.cache
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.sourcelink.json
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaG.92EE484C.Up2Date
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.dll
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\refint\SistemaGestionData.dll
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\SistemaGestionData.pdb
+D:\cSharp\c_sharp\Proyecto_Coder3\SistemaGestionData\obj\Debug\net6.0\ref\SistemaGestionData.dll

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\cSharp\\c_sharp\\ProyectoCoder\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|D:\\cSharp\\c_sharp\\ProyectoCoder\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|d:\\csharp\\c_sharp\\proyectocoder\\database\\gestorbasededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|solutionrelative:database\\gestorbasededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|D:\\cSharp\\c_sharp\\ProyectoCoder\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|D:\\cSharp\\c_sharp\\ProyectoCoder\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69DD310C-1BA4-46CB-BAD7-2622A808726E}|ProyectoCoder.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GestorBaseDeDatos.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\ProyectoCoder\\DataBase\\GestorBaseDeDatos.cs",
               "RelativeDocumentMoniker": "DataBase\\GestorBaseDeDatos.cs",
               "ToolTip": "D:\\cSharp\\c_sharp\\ProyectoCoder\\DataBase\\GestorBaseDeDatos.cs",
               "RelativeToolTip": "DataBase\\GestorBaseDeDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T23:23:03.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Producto.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\ProyectoCoder\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "Models\\Producto.cs",
               "ToolTip": "D:\\cSharp\\c_sharp\\ProyectoCoder\\Models\\Producto.cs",
               "RelativeToolTip": "Models\\Producto.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAA9wCgAAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wD0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T05:09:32.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductoVendido.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\ProyectoCoder\\Models\\ProductoVendido.cs",
               "RelativeDocumentMoniker": "Models\\ProductoVendido.cs",
@@ -72,12 +72,11 @@
               "RelativeToolTip": "Models\\ProductoVendido.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:13:43.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T04:13:43.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Usuario.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\ProyectoCoder\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
@@ -85,12 +84,11 @@
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAswDwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:06:22.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T04:06:22.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Venta.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\ProyectoCoder\\Models\\Venta.cs",
               "RelativeDocumentMoniker": "Models\\Venta.cs",
@@ -98,12 +96,11 @@
               "RelativeToolTip": "Models\\Venta.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwCYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T04:19:37.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T04:19:37.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\ProyectoCoder\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T05:00:24.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T05:00:24.623Z"
             }
           ]
         }

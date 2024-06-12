@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nyBI6Rez5/qNLJ2O2iMmFOGkJbJL3mQHb4jlm+fXJqPHn+Rr9GnTIfwcaCWbCFUQ0WxM3wVgrTdkB3KhmLe/Gg==",
+  "success": true,
+  "projectFilePath": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestionEntities\\SistemaGestionEntities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaco\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\joaco\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\joaco\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}
