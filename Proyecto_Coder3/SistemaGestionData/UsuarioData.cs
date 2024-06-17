@@ -14,9 +14,9 @@ namespace SistemaGestionData
         
           private static string connectionString = "Server=.; Database=SistemaGestion; Trusted_Connection=True;";
 
-        public static List<Usuario> ObtenerUsuario(int id)
+        public static Usuario ObtenerUsuario(int id)
         {
-            List<Usuario> lista = new List<Usuario>();
+            Usuario usuario = null;
             var query = "SELECT Id, Nombre, Apellido, Contraseña AS Password, Mail, NombreUsuario FROM Usuario WHERE Id = @Id;";
 
             using (SqlConnection conexion = new SqlConnection(connectionString))
@@ -28,28 +28,26 @@ namespace SistemaGestionData
 
                     using (SqlDataReader dr = comand.ExecuteReader())
                     {
-                        if (dr.HasRows)
+                        if (dr.Read())
                         {
-                            while (dr.Read())
-                            {
-                                var usuario = new Usuario
-                                (
-                                    Convert.ToInt32(dr["Id"]),
-                                    dr["Nombre"].ToString(),
-                                    dr["Apellido"].ToString(),
-                                    dr["Contraseña"].ToString(),
-                                    dr["Mail"].ToString(),
-                                    dr["NombreUsuario"].ToString()
-                                );
-                                lista.Add(usuario);
-                            }
+                            usuario = new Usuario
+                            (
+                                Convert.ToInt32(dr["Id"]),
+                                dr["Nombre"].ToString(),
+                                dr["Apellido"].ToString(),
+                                dr["Password"].ToString(), 
+                                dr["Mail"].ToString(),
+                                dr["NombreUsuario"].ToString()
+                            );
                         }
                     }
                 }
             }
 
-            return lista;
+            return usuario;
         }
+
+
         public static List<Usuario> ListarUsuarios()
         {
             List<Usuario> lista = new List<Usuario>();

@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{001B15E3-A607-408D-B340-A7F0124E5097}|..\\WebApplication1\\WebApplication1.csproj|d:\\csharp\\c_sharp\\proyecto_coder3\\webapplication1\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCE81154-FCB0-47C5-9A28-C633BBF463EE}|SistemaGestionUI.csproj|d:\\csharp\\c_sharp\\proyecto_coder3\\sistemagestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCE81154-FCB0-47C5-9A28-C633BBF463EE}|SistemaGestionUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D42CD538-AA3D-46B6-B6B1-3A8B36E72FE4}|..\\SistemaGestionData\\SistemaGestionData.csproj|d:\\csharp\\c_sharp\\proyecto_coder3\\sistemagestiondata\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCE81154-FCB0-47C5-9A28-C633BBF463EE}|SistemaGestionUI.csproj|d:\\csharp\\c_sharp\\proyecto_coder3\\sistemagestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DCE81154-FCB0-47C5-9A28-C633BBF463EE}|SistemaGestionUI.csproj|D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DCE81154-FCB0-47C5-9A28-C633BBF463EE}|SistemaGestionUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -21,30 +21,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioData.cs",
-              "DocumentMoniker": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestionData\\UsuarioData.cs",
-              "RelativeDocumentMoniker": "..\\SistemaGestionData\\UsuarioData.cs",
-              "ToolTip": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestionData\\UsuarioData.cs",
-              "RelativeToolTip": "..\\SistemaGestionData\\UsuarioData.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAawDcAAABNAAAA",
+              "DocumentIndex": 0,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\WebApplication1\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "..\\WebApplication1\\Controllers\\VentaController.cs",
+              "ToolTip": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\WebApplication1\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "..\\WebApplication1\\Controllers\\VentaController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T08:42:54.685Z",
+              "WhenOpened": "2024-06-17T03:07:55.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestion\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\cSharp\\c_sharp\\Proyecto_Coder3\\SistemaGestion\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-12T08:39:04.429Z",
               "EditorCaption": ""

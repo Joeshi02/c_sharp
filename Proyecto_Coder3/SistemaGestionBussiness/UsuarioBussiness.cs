@@ -10,7 +10,7 @@ namespace SistemaGestionBussiness
 {
     public class UsuarioBussiness
     {
-        public static List<Usuario> ObtenerUsuario(int id)
+        public static Usuario ObtenerUsuario(int id)
         {
             return UsuarioData.ObtenerUsuario(id);
         }

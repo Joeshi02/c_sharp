@@ -13,9 +13,9 @@ namespace SistemaGestionData
     {
         private static string connectionString = "Server=.; Database=SistemaGestion; Trusted_Connection=True;";
 
-        public static List<ProductoVendido> ObtenerProductoVendido(int IdProducto)
+        public static ProductoVendido ObtenerProductoVendido(int IdProducto)
         {
-            List<ProductoVendido> lista = new List<ProductoVendido>();
+            ProductoVendido productoVendido = null;
             var query = "SELECT Id, IdProducto, Stock, IdVenta FROM ProductoVendido WHERE IdProducto = @IdProducto;";
 
             using (SqlConnection conexion = new SqlConnection(connectionString))
@@ -27,26 +27,23 @@ namespace SistemaGestionData
 
                     using (SqlDataReader dr = comand.ExecuteReader())
                     {
-                        if (dr.HasRows)
+                        if (dr.Read())
                         {
-                            while (dr.Read())
+                            productoVendido = new ProductoVendido
                             {
-                                var productoVendido = new ProductoVendido
-                                {
-                                    Id = Convert.ToInt32(dr["Id"]),
-                                    IdProducto = Convert.ToInt32(dr["IdProducto"]),
-                                    Stock = Convert.ToInt32(dr["Stock"]),
-                                    IdVenta = Convert.ToInt32(dr["IdVenta"])
-                                };
-                                lista.Add(productoVendido);
-                            }
+                                Id = Convert.ToInt32(dr["Id"]),
+                                IdProducto = Convert.ToInt32(dr["IdProducto"]),
+                                Stock = Convert.ToInt32(dr["Stock"]),
+                                IdVenta = Convert.ToInt32(dr["IdVenta"])
+                            };
                         }
                     }
                 }
             }
 
-            return lista;
+            return productoVendido;
         }
+
 
         public static List<ProductoVendido> ListarProductosVendidos()
         {

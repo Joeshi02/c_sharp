@@ -13,9 +13,9 @@ namespace SistemaGestionData
     {
         private static string connectionString = "Server=.; Database=SistemaGestion; Trusted_Connection=True;";
 
-        public static List<Venta> ObtenerVenta(int id)
+        public static Venta ObtenerVenta(int id)
         {
-            List<Venta> lista = new List<Venta>();
+            Venta venta = null;
             var query = "SELECT Id, Comentarios, IdUsuario FROM Venta WHERE Id = @Id;";
 
             using (SqlConnection conexion = new SqlConnection(connectionString))
@@ -27,25 +27,22 @@ namespace SistemaGestionData
 
                     using (SqlDataReader dr = comand.ExecuteReader())
                     {
-                        if (dr.HasRows)
+                        if (dr.Read())
                         {
-                            while (dr.Read())
-                            {
-                                var venta = new Venta
-                                (
-                                    Convert.ToInt32(dr["Id"]),
-                                    dr["Comentarios"].ToString(),
-                                    Convert.ToInt32(dr["IdUsuario"])
-                                );
-                                lista.Add(venta);
-                            }
+                            venta = new Venta
+                            (
+                                Convert.ToInt32(dr["Id"]),
+                                dr["Comentarios"].ToString(),
+                                Convert.ToInt32(dr["IdUsuario"])
+                            );
                         }
                     }
                 }
             }
 
-            return lista;
+            return venta;
         }
+
 
         public static List<Venta> ListarVentas()
         {
@@ -80,21 +77,21 @@ namespace SistemaGestionData
 
         public static void CrearVenta(Venta venta)
         {
-            string query = "INSERT INTO Venta (Id, Comentarios, IdUsuario) VALUES (@Id, @Comentarios, @IdUsuario);";
+            string query = "INSERT INTO Venta (Comentarios, IdUsuario) VALUES (@Comentarios, @IdUsuario);";
 
             using (SqlConnection conexion = new SqlConnection(connectionString))
             {
                 conexion.Open();
                 using (SqlCommand comand = new SqlCommand(query, conexion))
                 {
-                    comand.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = venta.Id });
                     comand.Parameters.Add(new SqlParameter("@Comentarios", SqlDbType.NVarChar) { Value = venta.Comentarios });
-                    comand.Parameters.Add(new SqlParameter("@IdUsuario", SqlDbType.Int) { Value = venta.IdUsuario }); ;
+                    comand.Parameters.Add(new SqlParameter("@IdUsuario", SqlDbType.Int) { Value = venta.IdUsuario });
 
                     comand.ExecuteNonQuery();
                 }
             }
         }
+
 
         public static void ActualizarVenta(Venta venta)
         {

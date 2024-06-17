@@ -10,7 +10,7 @@ namespace SistemaGestionBussiness
 {
     public class VentaBussiness
     {
-        public static List<Venta> ObtenerVenta(int id)
+        public static Venta ObtenerVenta(int id)
         {
             return VentaData.ObtenerVenta(id);
         }

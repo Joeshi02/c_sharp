@@ -13,43 +13,41 @@ namespace SistemaGestionData
     {
             private static string connectionString = "Server=.; Database=SistemaGestion; Trusted_Connection=True;";
 
-            public static List<Producto> ObtenerProducto(int IdProducto)
+        public static Producto ObtenerProducto(int IdProducto)
+        {
+            Producto producto = null;
+            var query = "SELECT Id, Descripciones, Costo, PrecioVenta, Stock, IdUsuario FROM Producto WHERE Id = @IdProducto;";
+
+            using (SqlConnection conexion = new SqlConnection(connectionString))
             {
-                List<Producto> lista = new List<Producto>();
-                var query = "SELECT Id, Descripciones, Costo, PrecioVenta, Stock, IdUsuario FROM Producto WHERE Id = @IdProducto;";
-
-                using (SqlConnection conexion = new SqlConnection(connectionString))
+                conexion.Open();
+                using (SqlCommand comand = new SqlCommand(query, conexion))
                 {
-                    conexion.Open();
-                    using (SqlCommand comand = new SqlCommand(query, conexion))
-                    {
-                        comand.Parameters.Add(new SqlParameter("@IdProducto", SqlDbType.Int) { Value = IdProducto });
+                    comand.Parameters.Add(new SqlParameter("@IdProducto", SqlDbType.Int) { Value = IdProducto });
 
-                        using (SqlDataReader dr = comand.ExecuteReader())
+                    using (SqlDataReader dr = comand.ExecuteReader())
+                    {
+                        if (dr.HasRows)
                         {
-                            if (dr.HasRows)
+                            dr.Read();  // Leer una sola fila
+                            producto = new Producto
                             {
-                                while (dr.Read())
-                                {
-                                    var producto = new Producto
-                                    {
-                                        id = Convert.ToInt32(dr["Id"]),
-                                        descripcion = dr["Descripciones"].ToString(),
-                                        precioDeCompra = Convert.ToDouble(dr["Costo"]),
-                                        precioDeVenta = Convert.ToDouble(dr["PrecioVenta"]),
-                                        stock = Convert.ToDouble(dr["Stock"])
-                                    };
-                                    lista.Add(producto);
-                                }
-                            }
+                                id = Convert.ToInt32(dr["Id"]),
+                                descripcion = dr["Descripciones"].ToString(),
+                                precioDeCompra = Convert.ToDouble(dr["Costo"]),
+                                precioDeVenta = Convert.ToDouble(dr["PrecioVenta"]),
+                                stock = Convert.ToDouble(dr["Stock"])
+                            };
                         }
                     }
                 }
-
-                return lista;
             }
 
-            public static List<Producto> ListarProductos()
+            return producto;
+        }
+
+
+        public static List<Producto> ListarProductos()
             {
                 List<Producto> lista = new List<Producto>();
                 var query = "SELECT Id, Descripciones, Costo, PrecioVenta, Stock, IdUsuario FROM Producto";
